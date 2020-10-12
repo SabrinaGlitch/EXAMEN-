@@ -1,0 +1,286 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-color: white;
+	height: 100%;
+	box-sizing: border-box;	
+	font-family: 'Lato', arial;
+	margin: 0;
+}
+main{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: white;
+}
+header{
+	width: 100%;
+	height: 20%;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+.footer1{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	margin-top: 15%;
+}
+.footer2{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	margin-top: 33%;
+}
+.footer3{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+}
+/*---------------------------------------------------------------*/
+/*CONTENEDOR DEL LOGO Y LOGO*/
+.cont{
+	background-color: black;
+	height: 100%;
+	width: 25%;
+	margin-left: 1.5%;
+}
+.logo{
+	height: 100%;
+	width: 100%;
+}
+/*MENÚ Y OPCIONES*/
+.menu{
+	background-color: black;
+	height: 100%;
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 3%;
+}
+.op1{
+	font-size: 23px;
+	color: white;
+	cursor: pointer;
+}
+
+/*ESTILOS DE LAS OP DEL MENÚ*/
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  text-decoration: underline;
+  color: red;
+}
+
+/*-----------------------MAIN-------------------------------------*/
+.content{
+	width: 95%;
+	height: 48%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding-left: 4%;
+}
+/*BANNER*/
+.banner{
+	width: 100%;
+	height: 70%;
+	background-color: green;
+}
+.ban{
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+.txt1{
+	margin-top: 25.1%;
+	position: absolute;
+	background-color: rgba(122, 108, 88, 0.5);
+}
+/*PRESENTACIÓN*/
+.presentacion{
+	background-color: #bdb6ae;
+	text-align: justify;
+	height: 95%; 
+	width: 35%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+.ttl1{
+	margin-left: 3%;
+	padding-top: 3%;
+}
+.txt2{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 5%;
+}
+/*PRODUCTO DE EJEMPLO*/
+.producto{
+	height: 95%;
+	width: 40%;
+	margin-right: 10%;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #de9c76;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.cc1{
+	height: 60%;
+	width: 100%;
+	background-color: red;
+}
+.p1{
+	height: 100%;
+	width: 100%;
+}
+.desk{
+	text-align: center;
+	color: black;
+}
+/*-----------------PRODUCTOS------------------------------------*/
+.contPRO1{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 70%;
+	background-color: white;
+}
+.contPRO2{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 70%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	background-color: white;
+}
+.producto2{
+	height: 100%;
+	width: 40%;
+	margin-right: 5%;
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #de9c76;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+.btn1:hover{
+	background-color: #db481f;
+}
+.btn1{
+	color: white;
+	background-color: rgba(219, 72, 31,0.8);
+	border: none;
+	border-radius: 5px;
+	width: 205px;
+	height: 39px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: 0;
+}
+/*----------------CONTACTO----------------------------------------*/
+.contt{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.local{
+	margin-top: 3%;
+	margin-left: 3%;
+	height: 70%;
+	width: 45%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.mm{
+	height: 100%;
+	width: 100%;
+}
+.form{
+	background-color: white;
+	height: 70%;
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.txtfield1{
+	outline: none;
+	width: 50%;
+	height: 25px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dbdad7;
+	border-radius: 3px;
+	color: #696e69;
+	margin-top: 5px;
+	margin-left: 2%;
+}
+.txtfield2{
+	outline: none;
+	width: 50%;
+	height: 25px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dbdad7;
+	border-radius: 3px;
+	color: #696e69;
+	margin-top: 5px;
+	margin-left: 4%;
+}
+.txtarea{
+	outline: none;
+	width: 50%;
+	height: 95px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dbdad7;
+	border-radius: 3px;
+	margin-top: 20px;
+	color: #696e69;
+	margin-left: 1%;
+}
+.btn2:hover{
+	background-color: #db481f;
+}
+.btn2{
+	color: white;
+	background-color: rgba(219, 72, 31,0.8);
+	border: none;
+	border-radius: 5px;
+	width: 105px;
+	height: 39px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: 0;
+	margin-top: 5%;
+}
